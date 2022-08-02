@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../modal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+ 
+}
+h1 {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  color: #0c0c0c;
+  background-color: rgba(246, 246, 246, 0.8);
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+}
